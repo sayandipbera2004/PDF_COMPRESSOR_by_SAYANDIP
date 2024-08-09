@@ -1,0 +1,56 @@
+/* static/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    padding: 10px;
+    border: 2px dashed #cccccc;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.compression-section {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.compress-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
